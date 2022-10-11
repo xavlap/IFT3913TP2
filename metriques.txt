@@ -1,0 +1,15 @@
+Q1
+	M1-densite de commentaire (CLOC/LOC) (a faire par nous meme?)
+	M2-mcCabe (compter le nombre de if, de while et de for)
+	
+Q2
+	M1-couplage (TP1)
+	M2-LCOM?
+
+Q3
+	M1-
+	M2-
+
+Q4
+	M1-taille_code/taille_tests (en mb)
+	M2-PMNT(pourcentage de methode non teste)?
