@@ -1,15 +1,15 @@
 Q1
 	M1-densite de commentaire (CLOC/LOC) (a faire par nous meme?)
-	M2-mcCabe (compter le nombre de if, de while et de for)
+	M2-McCabe (compter le nombre de if, de while et de for)
 	
 Q2
 	M1-couplage (TP1)
-	M2-LCOM?
+	M2-LCOM -> https://www.spinellis.gr/sw/ckjm/doc/indexw.html
 
 Q3
 	M1-
 	M2-
 
 Q4
-	M1-taille_code/taille_tests (en mb)
-	M2-PMNT(pourcentage de methode non teste)?
+	M1-McCabe (compter le nombre de if, de while et de for)
+	M2-RFC -> https://www.spinellis.gr/sw/ckjm/doc/indexw.html
