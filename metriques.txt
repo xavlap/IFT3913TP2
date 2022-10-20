@@ -7,8 +7,31 @@ Q2
 	M2-LCOM -> https://www.spinellis.gr/sw/ckjm/doc/indexw.html
 
 Q3
-	M1-
-	M2-
+	M1- Nombre de commit par année sur la branche master
+	    -> On peut voir dans commit_per_year.txt les commits effectuer à chaque année. Avec un peu plus de 4200 répartis
+	       sur 16 ans et avec la majorité de ceux-ci concentré dans les premières années. En observant ces données, on
+	       peux déduire que le code est en effet probablement à maturité comme le nombre de commit réduit à chaque année.
+	       Ceci peux être interprété comme il ne reste plus beaucoup de bug majeur dans le code et que la version
+	       disponible est stable et complète.
+
+	M2- Trouvé le nombre de "issues" actif
+	    -> Comme on peut le voir dans le fichier open_issues.json. Lorsque l'on passe le repository de jfreechart dans
+	       un logiciel de qualimétrie comme SonarQube. On voit que malgré le fait qu'il s'agisse d'une base de code assez
+	       mature, 16 ans de développement continue, il reste néanmoins 3183 "issues" qui n'ont pas été réglés. Ceci peut
+	       sembler énorme pour un code qui compte 132,686 lignes de code. Cependant, il est très important de noter que ces
+	       "issues" ne sont pas de réels problèmes comme des erreurs d'affichage, des crashs ou encore des erreurs de logique.
+	       En effet, ces "issues" sont, pour la plupart, des accrocs dans la façon dont le code lui-même est écrit, appelé "code-smell".
+	       L'un des code-smells les plus récurrents dans le cas de jfreechart, est la duplication de code. En soi ceci n'est pas
+	       nocif, mais n'empêche que ce n'est pas optimal, ce qui explique pourquoi il est considéré comme un "issues".
+	       Cependant, nous pouvons voir que le code comporte 288 "bug". Ce bug pourrait, dans un concours de circonstance précise
+	       causer des problèmes comme "A "NullPointerException" could be thrown; "tickDate" is nullable here". À la
+	       lumière de ces informations, on peut voir que le code est relativement mature même s'il comporte plusieurs issues.
+	       Pour atteindre un niveau de maturité plus élevé, on pourrait venir corriger les issues identifiées comme des bugs.
+	       Les autres issues n'ont aucun réel impact et prendrait un temps considérable à corriger pour aucun vrai résultas.
+	       Somme toute, le code est très mature et ne comporte pas de réel problème au niveau de son contenu.
+
+
+
 
 Q4
 	M1-McCabe (compter le nombre de if, de while et de for)

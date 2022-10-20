@@ -5,7 +5,7 @@ import sys
 
 def mcCabeFile(file):
     f = open(os.path.join(os.getcwd(),file),"r")
-    cpt=1
+    cpt= 1
 
     while True:
         line = f.readline().strip()
@@ -39,7 +39,7 @@ def mcCabeDir(path):
             if contains(file,".java"):
                 print(file)
                 cpt += mcCabeFile(os.path.join(root,file))
-                
+                print(cpt)
 
     return cpt
                 
