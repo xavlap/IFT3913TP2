@@ -1,0 +1,4249 @@
+{
+    "total": 3183,
+    "p": 1,
+    "ps": 100,
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 100,
+        "total": 3183
+    },
+    "effortTotal": 42747,
+    "issues": [
+        {
+            "key": "AYPy3Z6PMr7FQP4ep4Lx",
+            "rule": "Web:BoldAndItalicTagsCheck",
+            "severity": "MINOR",
+            "component": "project:sonarqube-9.7.0.61563/web/index.html",
+            "project": "project",
+            "hash": "0a70dc71fde937d8e5e4f76a05774e1a",
+            "textRange": {
+                "startLine": 30,
+                "endLine": 30,
+                "startOffset": 12,
+                "endOffset": 54
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Replace this <i> tag by <em>.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility"
+            ],
+            "transitions": [],
+            "actions": [
+                "set_tags",
+                "comment"
+            ],
+            "comments": [],
+            "creationDate": "2022-10-19T20:49:07-0400",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "closeDate": "2022-10-19T20:57:22-0400",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ltNMr7FQP4ep5Q6",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/data/xy/VectorSeriesCollectionTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-06-17T05:46:21-0400",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ldpMr7FQP4ep5Dx",
+            "rule": "java:S1214",
+            "severity": "CRITICAL",
+            "component": "project:src/main/java/org/jfree/chart/date/MonthConstants.java",
+            "project": "project",
+            "line": 42,
+            "hash": "cd63ad8bee6d5baa0ea30ace3ab220e1",
+            "textRange": {
+                "startLine": 42,
+                "endLine": 42,
+                "startOffset": 17,
+                "endOffset": 31
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/chart/date/MonthConstants.java",
+                            "textRange": {
+                                "startLine": 45,
+                                "endLine": 45,
+                                "startOffset": 8,
+                                "endOffset": 15
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/chart/date/MonthConstants.java",
+                            "textRange": {
+                                "startLine": 48,
+                                "endLine": 48,
+                                "startOffset": 8,
+                                "endOffset": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/chart/date/MonthConstants.java",
+                            "textRange": {
+                                "startLine": 51,
+                                "endLine": 51,
+                                "startOffset": 8,
+                                "endOffset": 13
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/chart/date/MonthConstants.java",
+                            "textRange": {
+                                "startLine": 54,
+                                "endLine": 54,
+                                "startOffset": 8,
+                                "endOffset": 13
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/chart/date/MonthConstants.java",
+                            "textRange": {
+                                "startLine": 57,
+                                "endLine": 57,
+                                "startOffset": 8,
+                                "endOffset": 11
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/chart/date/MonthConstants.java",
+                            "textRange": {
+                                "startLine": 60,
+                                "endLine": 60,
+                                "startOffset": 8,
+                                "endOffset": 12
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/chart/date/MonthConstants.java",
+                            "textRange": {
+                                "startLine": 63,
+                                "endLine": 63,
+                                "startOffset": 8,
+                                "endOffset": 12
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/chart/date/MonthConstants.java",
+                            "textRange": {
+                                "startLine": 66,
+                                "endLine": 66,
+                                "startOffset": 8,
+                                "endOffset": 14
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/chart/date/MonthConstants.java",
+                            "textRange": {
+                                "startLine": 69,
+                                "endLine": 69,
+                                "startOffset": 8,
+                                "endOffset": 17
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/chart/date/MonthConstants.java",
+                            "textRange": {
+                                "startLine": 72,
+                                "endLine": 72,
+                                "startOffset": 8,
+                                "endOffset": 15
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/chart/date/MonthConstants.java",
+                            "textRange": {
+                                "startLine": 75,
+                                "endLine": 75,
+                                "startOffset": 8,
+                                "endOffset": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/chart/date/MonthConstants.java",
+                            "textRange": {
+                                "startLine": 78,
+                                "endLine": 78,
+                                "startOffset": 8,
+                                "endOffset": 16
+                            }
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Move constants defined in this interfaces to another class or enum.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "bad-practice"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T14:07:27-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lhfMr7FQP4ep5Hx",
+            "rule": "java:S1214",
+            "severity": "CRITICAL",
+            "component": "project:src/main/java/org/jfree/chart/encoders/ImageFormat.java",
+            "project": "project",
+            "line": 47,
+            "hash": "a4438a77387c6de1c34c6a24e829e129",
+            "textRange": {
+                "startLine": 47,
+                "endLine": 47,
+                "startOffset": 17,
+                "endOffset": 28
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/chart/encoders/ImageFormat.java",
+                            "textRange": {
+                                "startLine": 50,
+                                "endLine": 50,
+                                "startOffset": 11,
+                                "endOffset": 14
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/chart/encoders/ImageFormat.java",
+                            "textRange": {
+                                "startLine": 53,
+                                "endLine": 53,
+                                "startOffset": 11,
+                                "endOffset": 15
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/chart/encoders/ImageFormat.java",
+                            "textRange": {
+                                "startLine": 56,
+                                "endLine": 56,
+                                "startOffset": 11,
+                                "endOffset": 14
+                            }
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Move constants defined in this interfaces to another class or enum.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "bad-practice"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T14:07:27-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lPwMr7FQP4ep4t4",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/main/java/org/jfree/chart/plot/compass/MiddlePinNeedle.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T14:07:27-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lQLMr7FQP4ep4ub",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/main/java/org/jfree/chart/plot/compass/PinNeedle.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T14:07:27-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lLOMr7FQP4ep4pn",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/main/java/org/jfree/data/time/TimePeriodValuesCollection.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T14:07:27-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lHnMr7FQP4ep4l1",
+            "rule": "java:S1214",
+            "severity": "CRITICAL",
+            "component": "project:src/main/java/org/jfree/data/xml/DatasetTags.java",
+            "project": "project",
+            "line": 46,
+            "hash": "339dbaadb5fed9cda0a7e7e0091c7a34",
+            "textRange": {
+                "startLine": 46,
+                "endLine": 46,
+                "startOffset": 17,
+                "endOffset": 28
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/data/xml/DatasetTags.java",
+                            "textRange": {
+                                "startLine": 49,
+                                "endLine": 49,
+                                "startOffset": 11,
+                                "endOffset": 25
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/data/xml/DatasetTags.java",
+                            "textRange": {
+                                "startLine": 52,
+                                "endLine": 52,
+                                "startOffset": 11,
+                                "endOffset": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/data/xml/DatasetTags.java",
+                            "textRange": {
+                                "startLine": 55,
+                                "endLine": 55,
+                                "startOffset": 11,
+                                "endOffset": 21
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/data/xml/DatasetTags.java",
+                            "textRange": {
+                                "startLine": 58,
+                                "endLine": 58,
+                                "startOffset": 11,
+                                "endOffset": 19
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/data/xml/DatasetTags.java",
+                            "textRange": {
+                                "startLine": 61,
+                                "endLine": 61,
+                                "startOffset": 11,
+                                "endOffset": 18
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "project:src/main/java/org/jfree/data/xml/DatasetTags.java",
+                            "textRange": {
+                                "startLine": 64,
+                                "endLine": 64,
+                                "startOffset": 11,
+                                "endOffset": 20
+                            }
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Move constants defined in this interfaces to another class or enum.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "bad-practice"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T14:07:27-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ll2Mr7FQP4ep5L3",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/XYPlotTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "8 duplicated blocks of code must be removed.",
+            "effort": "1h30min",
+            "debt": "1h30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T14:07:27-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ltfMr7FQP4ep5RI",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/data/time/WeekTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T14:07:27-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lcNMr7FQP4ep5Ah",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/main/java/org/jfree/chart/axis/PeriodAxis.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T13:57:41-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lavMr7FQP4ep493",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/main/java/org/jfree/chart/axis/ValueAxis.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "3 duplicated blocks of code must be removed.",
+            "effort": "40min",
+            "debt": "40min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T13:57:41-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lReMr7FQP4ep4wu",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/main/java/org/jfree/chart/plot/SpiderWebPlot.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "4 duplicated blocks of code must be removed.",
+            "effort": "50min",
+            "debt": "50min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T13:57:41-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lTOMr7FQP4ep4yt",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/main/java/org/jfree/chart/plot/XYPlot.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "22 duplicated blocks of code must be removed.",
+            "effort": "3h50min",
+            "debt": "3h50min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T13:57:41-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lQ7Mr7FQP4ep4v3",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/main/java/org/jfree/chart/plot/pie/PiePlot.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "9 duplicated blocks of code must be removed.",
+            "effort": "1h40min",
+            "debt": "1h40min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T13:57:41-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lGkMr7FQP4ep4k3",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/main/java/org/jfree/data/xy/DefaultTableXYDataset.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "3 duplicated blocks of code must be removed.",
+            "effort": "40min",
+            "debt": "40min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T13:57:41-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lEvMr7FQP4ep4jR",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/main/java/org/jfree/data/xy/XIntervalSeriesCollection.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T13:50:17-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lEpMr7FQP4ep4jL",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/main/java/org/jfree/data/xy/XYSeriesCollection.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T13:50:17-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ltQMr7FQP4ep5Q8",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/data/xy/XIntervalSeriesCollectionTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T13:50:17-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lsKMr7FQP4ep5Qh",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/data/xy/XYSeriesCollectionTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T13:50:17-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lV4Mr7FQP4ep44H",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/main/java/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:50:46-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lMnMr7FQP4ep4rG",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/main/java/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:50:46-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lkNMr7FQP4ep5Ko",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/RendererUtilsTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "10 duplicated blocks of code must be removed.",
+            "effort": "1h50min",
+            "debt": "1h50min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:50:46-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5li8Mr7FQP4ep5J4",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/category/BoxAndWhiskerRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "5 duplicated blocks of code must be removed.",
+            "effort": "1h",
+            "debt": "1h",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:50:46-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lkDMr7FQP4ep5Ki",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/xy/XYBarRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "4 duplicated blocks of code must be removed.",
+            "effort": "50min",
+            "debt": "50min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:50:46-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lN8Mr7FQP4ep4sd",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/main/java/org/jfree/data/ComparableObjectSeries.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:44:58-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lp7Mr7FQP4ep5PZ",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/AreaChartTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "5 duplicated blocks of code must be removed.",
+            "effort": "1h",
+            "debt": "1h",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lrCMr7FQP4ep5QM",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/BarChartTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "7 duplicated blocks of code must be removed.",
+            "effort": "1h20min",
+            "debt": "1h20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lqXMr7FQP4ep5Pl",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/GanttChartTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lpfMr7FQP4ep5PM",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/LineChartTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "3 duplicated blocks of code must be removed.",
+            "effort": "40min",
+            "debt": "40min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lpyMr7FQP4ep5PR",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/ScatterPlotTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "7 duplicated blocks of code must be removed.",
+            "effort": "1h20min",
+            "debt": "1h20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lo7Mr7FQP4ep5O6",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/StackedAreaChartTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "9 duplicated blocks of code must be removed.",
+            "effort": "1h40min",
+            "debt": "1h40min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lqoMr7FQP4ep5Pv",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/StackedBarChartTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "9 duplicated blocks of code must be removed.",
+            "effort": "1h40min",
+            "debt": "1h40min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lqxMr7FQP4ep5Pw",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/StandardChartThemeTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lq_Mr7FQP4ep5QL",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/TimeSeriesChartTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "7 duplicated blocks of code must be removed.",
+            "effort": "1h20min",
+            "debt": "1h20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lqbMr7FQP4ep5Pp",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/WaterfallChartTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lp_Mr7FQP4ep5Pa",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/XYAreaChartTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "5 duplicated blocks of code must be removed.",
+            "effort": "1h",
+            "debt": "1h",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lpcMr7FQP4ep5PL",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/XYBarChartTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "5 duplicated blocks of code must be removed.",
+            "effort": "1h",
+            "debt": "1h",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lpTMr7FQP4ep5PG",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/XYLineChartTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "7 duplicated blocks of code must be removed.",
+            "effort": "1h20min",
+            "debt": "1h20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lpjMr7FQP4ep5PN",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/XYStepAreaChartTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "5 duplicated blocks of code must be removed.",
+            "effort": "1h",
+            "debt": "1h",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lq7Mr7FQP4ep5QK",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/XYStepChartTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "7 duplicated blocks of code must be removed.",
+            "effort": "1h20min",
+            "debt": "1h20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ln7Mr7FQP4ep5N-",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lnoMr7FQP4ep5Nr",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/annotations/XYBoxAnnotationTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "3 duplicated blocks of code must be removed.",
+            "effort": "40min",
+            "debt": "40min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ln4Mr7FQP4ep5N5",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/annotations/XYDrawableAnnotationTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lnyMr7FQP4ep5N1",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/annotations/XYLineAnnotationTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ln-Mr7FQP4ep5OJ",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/annotations/XYPointerAnnotationTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lnvMr7FQP4ep5Nz",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/annotations/XYTitleAnnotationTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "3 duplicated blocks of code must be removed.",
+            "effort": "40min",
+            "debt": "40min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lmtMr7FQP4ep5M4",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/axis/CategoryAxisTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lnTMr7FQP4ep5NZ",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/axis/DateAxisTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "22 duplicated blocks of code must be removed.",
+            "effort": "3h50min",
+            "debt": "3h50min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lnaMr7FQP4ep5Nd",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/axis/ExtendedCategoryAxisTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lm7Mr7FQP4ep5NK",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/axis/LogAxisTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "4 duplicated blocks of code must be removed.",
+            "effort": "50min",
+            "debt": "50min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lnWMr7FQP4ep5Nb",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/axis/MarkerAxisBandTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lmzMr7FQP4ep5M7",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/axis/NumberAxisTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lnAMr7FQP4ep5NP",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/axis/QuarterDateFormatTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lnJMr7FQP4ep5NS",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/axis/SubCategoryAxisTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lpMMr7FQP4ep5PE",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/block/AbstractBlockTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lpQMr7FQP4ep5PF",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/block/EmptyBlockTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5loPMr7FQP4ep5Ob",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/entity/CategoryItemEntityTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5loaMr7FQP4ep5Of",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/entity/CategoryLabelEntityTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5loFMr7FQP4ep5OW",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/entity/FlowEntityTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5loSMr7FQP4ep5Od",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/entity/LegendItemEntityTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5loMMr7FQP4ep5OZ",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/entity/PieSectionEntityTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5loeMr7FQP4ep5Oh",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/entity/TickLabelEntityTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5loIMr7FQP4ep5OX",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/entity/XYItemEntityTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lkvMr7FQP4ep5LQ",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGeneratorTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lkyMr7FQP4ep5LS",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/labels/BubbleXYItemLabelGeneratorTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lkiMr7FQP4ep5LJ",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/labels/StandardXYZToolTipGeneratorTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lmCMr7FQP4ep5MU",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/CategoryPlotTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "6 duplicated blocks of code must be removed.",
+            "effort": "1h10min",
+            "debt": "1h10min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lmRMr7FQP4ep5Mm",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/CombinedDomainCategoryPlotTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5llhMr7FQP4ep5Ln",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/CombinedDomainXYPlotTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lmMMr7FQP4ep5Mk",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/CombinedRangeCategoryPlotTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lmOMr7FQP4ep5Ml",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/CombinedRangeXYPlotTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lmWMr7FQP4ep5Mn",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/MarkerTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lmJMr7FQP4ep5Mi",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/PlotTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ll6Mr7FQP4ep5MN",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/PolarPlotTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "10 duplicated blocks of code must be removed.",
+            "effort": "1h50min",
+            "debt": "1h50min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lmeMr7FQP4ep5Mr",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/SpiderWebPlotTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5llPMr7FQP4ep5Li",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/dial/AbstractDialLayerTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5llTMr7FQP4ep5Lj",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/dial/DialCapTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5llcMr7FQP4ep5Lm",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/dial/StandardDialScaleTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lltMr7FQP4ep5L0",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/pie/MultiplePiePlotTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lllMr7FQP4ep5Lo",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/pie/PieLabelRecordTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5llpMr7FQP4ep5Lp",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/plot/pie/PiePlotTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5li4Mr7FQP4ep5J3",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/category/AreaRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ljCMr7FQP4ep5KA",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/category/BarRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5liwMr7FQP4ep5Jx",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/category/LineAndShapeRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5limMr7FQP4ep5Jo",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/category/StackedAreaRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lioMr7FQP4ep5Jp",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/category/StackedBarRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ljrMr7FQP4ep5KZ",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/xy/CandlestickRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ljQMr7FQP4ep5KH",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/xy/ClusteredXYBarRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lj8Mr7FQP4ep5Kg",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/xy/HighLowRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lj3Mr7FQP4ep5Kf",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/xy/StackedXYAreaRenderer2Test.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ljfMr7FQP4ep5KS",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/xy/StackedXYAreaRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "3 duplicated blocks of code must be removed.",
+            "effort": "40min",
+            "debt": "40min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ljHMr7FQP4ep5KD",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "1 duplicated blocks of code must be removed.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ljnMr7FQP4ep5KW",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/xy/StandardXYItemRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lj1Mr7FQP4ep5Ke",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/xy/XYAreaRenderer2Test.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "5 duplicated blocks of code must be removed.",
+            "effort": "1h",
+            "debt": "1h",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ljxMr7FQP4ep5Kb",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/xy/XYAreaRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "5 duplicated blocks of code must be removed.",
+            "effort": "1h",
+            "debt": "1h",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ljjMr7FQP4ep5KT",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/xy/XYDifferenceRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ljLMr7FQP4ep5KE",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/xy/XYDotRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "2 duplicated blocks of code must be removed.",
+            "effort": "30min",
+            "debt": "30min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5lj_Mr7FQP4ep5Kh",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "3 duplicated blocks of code must be removed.",
+            "effort": "40min",
+            "debt": "40min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        },
+        {
+            "key": "AYPy5ljtMr7FQP4ep5Ka",
+            "rule": "common-java:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "component": "project:src/test/java/org/jfree/chart/renderer/xy/XYStepRendererTest.java",
+            "project": "project",
+            "flows": [],
+            "status": "OPEN",
+            "message": "3 duplicated blocks of code must be removed.",
+            "effort": "40min",
+            "debt": "40min",
+            "author": "dave@jfree.org",
+            "tags": [
+                "pitfall"
+            ],
+            "transitions": [
+                "confirm"
+            ],
+            "actions": [
+                "set_tags",
+                "comment",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2022-01-03T01:42:52-0500",
+            "updateDate": "2022-10-19T20:57:22-0400",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false
+        }
+    ],
+    "components": [
+        {
+            "key": "project:src/test/java/org/jfree/chart/StackedBarChartTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "StackedBarChartTest.java",
+            "longName": "src/test/java/org/jfree/chart/StackedBarChartTest.java",
+            "path": "src/test/java/org/jfree/chart/StackedBarChartTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/block/AbstractBlockTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "AbstractBlockTest.java",
+            "longName": "src/test/java/org/jfree/chart/block/AbstractBlockTest.java",
+            "path": "src/test/java/org/jfree/chart/block/AbstractBlockTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/StandardChartThemeTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "StandardChartThemeTest.java",
+            "longName": "src/test/java/org/jfree/chart/StandardChartThemeTest.java",
+            "path": "src/test/java/org/jfree/chart/StandardChartThemeTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/TimeSeriesChartTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "TimeSeriesChartTest.java",
+            "longName": "src/test/java/org/jfree/chart/TimeSeriesChartTest.java",
+            "path": "src/test/java/org/jfree/chart/TimeSeriesChartTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/block/EmptyBlockTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "EmptyBlockTest.java",
+            "longName": "src/test/java/org/jfree/chart/block/EmptyBlockTest.java",
+            "path": "src/test/java/org/jfree/chart/block/EmptyBlockTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/XYStepChartTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYStepChartTest.java",
+            "longName": "src/test/java/org/jfree/chart/XYStepChartTest.java",
+            "path": "src/test/java/org/jfree/chart/XYStepChartTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/WaterfallChartTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "WaterfallChartTest.java",
+            "longName": "src/test/java/org/jfree/chart/WaterfallChartTest.java",
+            "path": "src/test/java/org/jfree/chart/WaterfallChartTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/GanttChartTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "GanttChartTest.java",
+            "longName": "src/test/java/org/jfree/chart/GanttChartTest.java",
+            "path": "src/test/java/org/jfree/chart/GanttChartTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/XYLineChartTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYLineChartTest.java",
+            "longName": "src/test/java/org/jfree/chart/XYLineChartTest.java",
+            "path": "src/test/java/org/jfree/chart/XYLineChartTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/BarChartTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "BarChartTest.java",
+            "longName": "src/test/java/org/jfree/chart/BarChartTest.java",
+            "path": "src/test/java/org/jfree/chart/BarChartTest.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/xy/DefaultTableXYDataset.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "DefaultTableXYDataset.java",
+            "longName": "src/main/java/org/jfree/data/xy/DefaultTableXYDataset.java",
+            "path": "src/main/java/org/jfree/data/xy/DefaultTableXYDataset.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/XYBarChartTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYBarChartTest.java",
+            "longName": "src/test/java/org/jfree/chart/XYBarChartTest.java",
+            "path": "src/test/java/org/jfree/chart/XYBarChartTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/XYStepAreaChartTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYStepAreaChartTest.java",
+            "longName": "src/test/java/org/jfree/chart/XYStepAreaChartTest.java",
+            "path": "src/test/java/org/jfree/chart/XYStepAreaChartTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/LineChartTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "LineChartTest.java",
+            "longName": "src/test/java/org/jfree/chart/LineChartTest.java",
+            "path": "src/test/java/org/jfree/chart/LineChartTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/axis/NumberAxisTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "NumberAxisTest.java",
+            "longName": "src/test/java/org/jfree/chart/axis/NumberAxisTest.java",
+            "path": "src/test/java/org/jfree/chart/axis/NumberAxisTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/annotations/XYPointerAnnotationTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYPointerAnnotationTest.java",
+            "longName": "src/test/java/org/jfree/chart/annotations/XYPointerAnnotationTest.java",
+            "path": "src/test/java/org/jfree/chart/annotations/XYPointerAnnotationTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/annotations/XYDrawableAnnotationTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYDrawableAnnotationTest.java",
+            "longName": "src/test/java/org/jfree/chart/annotations/XYDrawableAnnotationTest.java",
+            "path": "src/test/java/org/jfree/chart/annotations/XYDrawableAnnotationTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/entity/XYItemEntityTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYItemEntityTest.java",
+            "longName": "src/test/java/org/jfree/chart/entity/XYItemEntityTest.java",
+            "path": "src/test/java/org/jfree/chart/entity/XYItemEntityTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "CategoryPointerAnnotationTest.java",
+            "longName": "src/test/java/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java",
+            "path": "src/test/java/org/jfree/chart/annotations/CategoryPointerAnnotationTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/entity/FlowEntityTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "FlowEntityTest.java",
+            "longName": "src/test/java/org/jfree/chart/entity/FlowEntityTest.java",
+            "path": "src/test/java/org/jfree/chart/entity/FlowEntityTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/entity/CategoryItemEntityTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "CategoryItemEntityTest.java",
+            "longName": "src/test/java/org/jfree/chart/entity/CategoryItemEntityTest.java",
+            "path": "src/test/java/org/jfree/chart/entity/CategoryItemEntityTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/entity/PieSectionEntityTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "PieSectionEntityTest.java",
+            "longName": "src/test/java/org/jfree/chart/entity/PieSectionEntityTest.java",
+            "path": "src/test/java/org/jfree/chart/entity/PieSectionEntityTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/entity/LegendItemEntityTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "LegendItemEntityTest.java",
+            "longName": "src/test/java/org/jfree/chart/entity/LegendItemEntityTest.java",
+            "path": "src/test/java/org/jfree/chart/entity/LegendItemEntityTest.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/axis/ValueAxis.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "ValueAxis.java",
+            "longName": "src/main/java/org/jfree/chart/axis/ValueAxis.java",
+            "path": "src/main/java/org/jfree/chart/axis/ValueAxis.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/axis/QuarterDateFormatTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "QuarterDateFormatTest.java",
+            "longName": "src/test/java/org/jfree/chart/axis/QuarterDateFormatTest.java",
+            "path": "src/test/java/org/jfree/chart/axis/QuarterDateFormatTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/axis/LogAxisTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "LogAxisTest.java",
+            "longName": "src/test/java/org/jfree/chart/axis/LogAxisTest.java",
+            "path": "src/test/java/org/jfree/chart/axis/LogAxisTest.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/xml/DatasetTags.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "DatasetTags.java",
+            "longName": "src/main/java/org/jfree/data/xml/DatasetTags.java",
+            "path": "src/main/java/org/jfree/data/xml/DatasetTags.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/data/xy/XIntervalSeriesCollectionTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XIntervalSeriesCollectionTest.java",
+            "longName": "src/test/java/org/jfree/data/xy/XIntervalSeriesCollectionTest.java",
+            "path": "src/test/java/org/jfree/data/xy/XIntervalSeriesCollectionTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/axis/SubCategoryAxisTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "SubCategoryAxisTest.java",
+            "longName": "src/test/java/org/jfree/chart/axis/SubCategoryAxisTest.java",
+            "path": "src/test/java/org/jfree/chart/axis/SubCategoryAxisTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/StackedAreaChartTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "StackedAreaChartTest.java",
+            "longName": "src/test/java/org/jfree/chart/StackedAreaChartTest.java",
+            "path": "src/test/java/org/jfree/chart/StackedAreaChartTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/data/xy/VectorSeriesCollectionTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "VectorSeriesCollectionTest.java",
+            "longName": "src/test/java/org/jfree/data/xy/VectorSeriesCollectionTest.java",
+            "path": "src/test/java/org/jfree/data/xy/VectorSeriesCollectionTest.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/xy/XIntervalSeriesCollection.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XIntervalSeriesCollection.java",
+            "longName": "src/main/java/org/jfree/data/xy/XIntervalSeriesCollection.java",
+            "path": "src/main/java/org/jfree/data/xy/XIntervalSeriesCollection.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/xy/XYSeriesCollection.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYSeriesCollection.java",
+            "longName": "src/main/java/org/jfree/data/xy/XYSeriesCollection.java",
+            "path": "src/main/java/org/jfree/data/xy/XYSeriesCollection.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/entity/TickLabelEntityTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "TickLabelEntityTest.java",
+            "longName": "src/test/java/org/jfree/chart/entity/TickLabelEntityTest.java",
+            "path": "src/test/java/org/jfree/chart/entity/TickLabelEntityTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/entity/CategoryLabelEntityTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "CategoryLabelEntityTest.java",
+            "longName": "src/test/java/org/jfree/chart/entity/CategoryLabelEntityTest.java",
+            "path": "src/test/java/org/jfree/chart/entity/CategoryLabelEntityTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/axis/ExtendedCategoryAxisTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "ExtendedCategoryAxisTest.java",
+            "longName": "src/test/java/org/jfree/chart/axis/ExtendedCategoryAxisTest.java",
+            "path": "src/test/java/org/jfree/chart/axis/ExtendedCategoryAxisTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/axis/MarkerAxisBandTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "MarkerAxisBandTest.java",
+            "longName": "src/test/java/org/jfree/chart/axis/MarkerAxisBandTest.java",
+            "path": "src/test/java/org/jfree/chart/axis/MarkerAxisBandTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/axis/DateAxisTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "DateAxisTest.java",
+            "longName": "src/test/java/org/jfree/chart/axis/DateAxisTest.java",
+            "path": "src/test/java/org/jfree/chart/axis/DateAxisTest.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/axis/PeriodAxis.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "PeriodAxis.java",
+            "longName": "src/main/java/org/jfree/chart/axis/PeriodAxis.java",
+            "path": "src/main/java/org/jfree/chart/axis/PeriodAxis.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/date/MonthConstants.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "MonthConstants.java",
+            "longName": "src/main/java/org/jfree/chart/date/MonthConstants.java",
+            "path": "src/main/java/org/jfree/chart/date/MonthConstants.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/category/StackedAreaRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "StackedAreaRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/category/StackedAreaRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/category/StackedAreaRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/category/StackedBarRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "StackedBarRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/category/StackedBarRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/category/StackedBarRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/data/xy/XYSeriesCollectionTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYSeriesCollectionTest.java",
+            "longName": "src/test/java/org/jfree/data/xy/XYSeriesCollectionTest.java",
+            "path": "src/test/java/org/jfree/data/xy/XYSeriesCollectionTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/data/time/WeekTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "WeekTest.java",
+            "longName": "src/test/java/org/jfree/data/time/WeekTest.java",
+            "path": "src/test/java/org/jfree/data/time/WeekTest.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "ClusteredXYBarRenderer.java",
+            "longName": "src/main/java/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java",
+            "path": "src/main/java/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/plot/XYPlot.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYPlot.java",
+            "longName": "src/main/java/org/jfree/chart/plot/XYPlot.java",
+            "path": "src/main/java/org/jfree/chart/plot/XYPlot.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/category/LineAndShapeRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "LineAndShapeRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/category/LineAndShapeRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/category/LineAndShapeRendererTest.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/encoders/ImageFormat.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "ImageFormat.java",
+            "longName": "src/main/java/org/jfree/chart/encoders/ImageFormat.java",
+            "path": "src/main/java/org/jfree/chart/encoders/ImageFormat.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/category/AreaRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "AreaRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/category/AreaRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/category/AreaRendererTest.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/plot/compass/PinNeedle.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "PinNeedle.java",
+            "longName": "src/main/java/org/jfree/chart/plot/compass/PinNeedle.java",
+            "path": "src/main/java/org/jfree/chart/plot/compass/PinNeedle.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/category/BoxAndWhiskerRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "BoxAndWhiskerRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/category/BoxAndWhiskerRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/category/BoxAndWhiskerRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/category/BarRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "BarRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/category/BarRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/category/BarRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "StackedXYBarRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/StackedXYBarRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/XYDotRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYDotRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/xy/XYDotRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/XYDotRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/ClusteredXYBarRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "ClusteredXYBarRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/xy/ClusteredXYBarRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/ClusteredXYBarRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/CategoryPlotTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "CategoryPlotTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/CategoryPlotTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/CategoryPlotTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/XYPlotTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYPlotTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/XYPlotTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/XYPlotTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/PolarPlotTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "PolarPlotTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/PolarPlotTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/PolarPlotTest.java"
+        },
+        {
+            "key": "project:sonarqube-9.7.0.61563/web/index.html",
+            "enabled": false,
+            "qualifier": "FIL",
+            "name": "index.html",
+            "longName": "sonarqube-9.7.0.61563/web/index.html",
+            "path": "sonarqube-9.7.0.61563/web/index.html"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/labels/StandardXYZToolTipGeneratorTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "StandardXYZToolTipGeneratorTest.java",
+            "longName": "src/test/java/org/jfree/chart/labels/StandardXYZToolTipGeneratorTest.java",
+            "path": "src/test/java/org/jfree/chart/labels/StandardXYZToolTipGeneratorTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/RendererUtilsTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "RendererUtilsTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/RendererUtilsTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/RendererUtilsTest.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/plot/compass/MiddlePinNeedle.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "MiddlePinNeedle.java",
+            "longName": "src/main/java/org/jfree/chart/plot/compass/MiddlePinNeedle.java",
+            "path": "src/main/java/org/jfree/chart/plot/compass/MiddlePinNeedle.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/PlotTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "PlotTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/PlotTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/PlotTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/CombinedRangeCategoryPlotTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "CombinedRangeCategoryPlotTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/CombinedRangeCategoryPlotTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/CombinedRangeCategoryPlotTest.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/plot/SpiderWebPlot.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "SpiderWebPlot.java",
+            "longName": "src/main/java/org/jfree/chart/plot/SpiderWebPlot.java",
+            "path": "src/main/java/org/jfree/chart/plot/SpiderWebPlot.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/time/TimePeriodValuesCollection.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "TimePeriodValuesCollection.java",
+            "longName": "src/main/java/org/jfree/data/time/TimePeriodValuesCollection.java",
+            "path": "src/main/java/org/jfree/data/time/TimePeriodValuesCollection.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/dial/StandardDialScaleTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "StandardDialScaleTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/dial/StandardDialScaleTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/dial/StandardDialScaleTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/MarkerTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "MarkerTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/MarkerTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/MarkerTest.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/plot/pie/PiePlot.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "PiePlot.java",
+            "longName": "src/main/java/org/jfree/chart/plot/pie/PiePlot.java",
+            "path": "src/main/java/org/jfree/chart/plot/pie/PiePlot.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/pie/PieLabelRecordTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "PieLabelRecordTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/pie/PieLabelRecordTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/pie/PieLabelRecordTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/CombinedDomainXYPlotTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "CombinedDomainXYPlotTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/CombinedDomainXYPlotTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/CombinedDomainXYPlotTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/CombinedRangeXYPlotTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "CombinedRangeXYPlotTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/CombinedRangeXYPlotTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/CombinedRangeXYPlotTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/CombinedDomainCategoryPlotTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "CombinedDomainCategoryPlotTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/CombinedDomainCategoryPlotTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/CombinedDomainCategoryPlotTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/XYAreaChartTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYAreaChartTest.java",
+            "longName": "src/test/java/org/jfree/chart/XYAreaChartTest.java",
+            "path": "src/test/java/org/jfree/chart/XYAreaChartTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/pie/MultiplePiePlotTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "MultiplePiePlotTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/pie/MultiplePiePlotTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/pie/MultiplePiePlotTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/pie/PiePlotTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "PiePlotTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/pie/PiePlotTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/pie/PiePlotTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/SpiderWebPlotTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "SpiderWebPlotTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/SpiderWebPlotTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/SpiderWebPlotTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/axis/CategoryAxisTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "CategoryAxisTest.java",
+            "longName": "src/test/java/org/jfree/chart/axis/CategoryAxisTest.java",
+            "path": "src/test/java/org/jfree/chart/axis/CategoryAxisTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/ScatterPlotTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "ScatterPlotTest.java",
+            "longName": "src/test/java/org/jfree/chart/ScatterPlotTest.java",
+            "path": "src/test/java/org/jfree/chart/ScatterPlotTest.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "DefaultStatisticalCategoryDataset.java",
+            "longName": "src/main/java/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java",
+            "path": "src/main/java/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/AreaChartTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "AreaChartTest.java",
+            "longName": "src/test/java/org/jfree/chart/AreaChartTest.java",
+            "path": "src/test/java/org/jfree/chart/AreaChartTest.java"
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/ComparableObjectSeries.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "ComparableObjectSeries.java",
+            "longName": "src/main/java/org/jfree/data/ComparableObjectSeries.java",
+            "path": "src/main/java/org/jfree/data/ComparableObjectSeries.java"
+        },
+        {
+            "key": "project",
+            "enabled": true,
+            "qualifier": "TRK",
+            "name": "project",
+            "longName": "project"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/StackedXYAreaRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "StackedXYAreaRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/xy/StackedXYAreaRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/StackedXYAreaRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/XYDifferenceRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYDifferenceRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/xy/XYDifferenceRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/XYDifferenceRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/labels/BubbleXYItemLabelGeneratorTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "BubbleXYItemLabelGeneratorTest.java",
+            "longName": "src/test/java/org/jfree/chart/labels/BubbleXYItemLabelGeneratorTest.java",
+            "path": "src/test/java/org/jfree/chart/labels/BubbleXYItemLabelGeneratorTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGeneratorTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "BoxAndWhiskerXYToolTipGeneratorTest.java",
+            "longName": "src/test/java/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGeneratorTest.java",
+            "path": "src/test/java/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGeneratorTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/StandardXYItemRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "StandardXYItemRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/xy/StandardXYItemRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/StandardXYItemRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/CandlestickRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "CandlestickRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/xy/CandlestickRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/CandlestickRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/XYStepRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYStepRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/xy/XYStepRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/XYStepRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/XYAreaRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYAreaRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/xy/XYAreaRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/XYAreaRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/XYAreaRenderer2Test.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYAreaRenderer2Test.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/xy/XYAreaRenderer2Test.java",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/XYAreaRenderer2Test.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/StackedXYAreaRenderer2Test.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "StackedXYAreaRenderer2Test.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/xy/StackedXYAreaRenderer2Test.java",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/StackedXYAreaRenderer2Test.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/HighLowRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "HighLowRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/xy/HighLowRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/HighLowRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/annotations/XYLineAnnotationTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYLineAnnotationTest.java",
+            "longName": "src/test/java/org/jfree/chart/annotations/XYLineAnnotationTest.java",
+            "path": "src/test/java/org/jfree/chart/annotations/XYLineAnnotationTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/XYBarRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYBarRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/xy/XYBarRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/XYBarRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYStepAreaRendererTest.java",
+            "longName": "src/test/java/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/XYStepAreaRendererTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/annotations/XYTitleAnnotationTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYTitleAnnotationTest.java",
+            "longName": "src/test/java/org/jfree/chart/annotations/XYTitleAnnotationTest.java",
+            "path": "src/test/java/org/jfree/chart/annotations/XYTitleAnnotationTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/dial/DialCapTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "DialCapTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/dial/DialCapTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/dial/DialCapTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/dial/AbstractDialLayerTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "AbstractDialLayerTest.java",
+            "longName": "src/test/java/org/jfree/chart/plot/dial/AbstractDialLayerTest.java",
+            "path": "src/test/java/org/jfree/chart/plot/dial/AbstractDialLayerTest.java"
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/annotations/XYBoxAnnotationTest.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "XYBoxAnnotationTest.java",
+            "longName": "src/test/java/org/jfree/chart/annotations/XYBoxAnnotationTest.java",
+            "path": "src/test/java/org/jfree/chart/annotations/XYBoxAnnotationTest.java"
+        }
+    ],
+    "rules": [
+        {
+            "key": "common-java:DuplicatedBlocks",
+            "name": "Source files should not have any duplicated blocks",
+            "lang": "java",
+            "status": "DEPRECATED",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S1214",
+            "name": "Constants should not be defined in interfaces",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "Web:BoldAndItalicTagsCheck",
+            "name": "\"<strong>\" and \"<em>\" tags should be used",
+            "lang": "web",
+            "status": "READY",
+            "langName": "HTML"
+        }
+    ],
+    "users": [
+        {
+            "login": "admin",
+            "name": "Administrator",
+            "active": true
+        }
+    ],
+    "languages": [
+        {
+            "key": "py",
+            "name": "Python"
+        },
+        {
+            "key": "go",
+            "name": "Go"
+        },
+        {
+            "key": "kotlin",
+            "name": "Kotlin"
+        },
+        {
+            "key": "terraform",
+            "name": "Terraform"
+        },
+        {
+            "key": "cloudformation",
+            "name": "CloudFormation"
+        },
+        {
+            "key": "kubernetes",
+            "name": "Kubernetes"
+        },
+        {
+            "key": "js",
+            "name": "JavaScript"
+        },
+        {
+            "key": "ts",
+            "name": "TypeScript"
+        },
+        {
+            "key": "css",
+            "name": "CSS"
+        },
+        {
+            "key": "ruby",
+            "name": "Ruby"
+        },
+        {
+            "key": "scala",
+            "name": "Scala"
+        },
+        {
+            "key": "cs",
+            "name": "C#"
+        },
+        {
+            "key": "java",
+            "name": "Java"
+        },
+        {
+            "key": "web",
+            "name": "HTML"
+        },
+        {
+            "key": "jsp",
+            "name": "JSP"
+        },
+        {
+            "key": "xml",
+            "name": "XML"
+        },
+        {
+            "key": "flex",
+            "name": "Flex"
+        },
+        {
+            "key": "php",
+            "name": "PHP"
+        },
+        {
+            "key": "text",
+            "name": "Text"
+        },
+        {
+            "key": "vbnet",
+            "name": "VB.NET"
+        },
+        {
+            "key": "yaml",
+            "name": "YAML"
+        },
+        {
+            "key": "json",
+            "name": "JSON"
+        }
+    ],
+    "facets": []
+}
