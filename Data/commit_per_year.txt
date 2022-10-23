@@ -1,6 +1,6 @@
 Pour trouver le nombre de commit effectuer par année sur la branch master du git repository
 
-git log --pretty='format:%cd' --date=format:'%Y' | uniq -c | awk '{print "Year: "$2", commits: "$1}'
+git log --pretty='format:%cd' --date=format:'%Y' | uniq -c | awk '{print "Year: "$2", commits: "$1} > commit_per_year.txt'
 
 Year: 2022, commits: 21
 Year: 2021, commits: 139

@@ -21,6 +21,6 @@ test_json = test_response.json()
 json_object = json.dumps(test_json, indent=4)
 
 # Writing to sample.json
-with open("open_issues.json", "w") as outfile:
+with open("../SonarQube_open_issues.json", "w") as outfile:
     outfile.write(json_object)
 
