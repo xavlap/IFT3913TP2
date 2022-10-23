@@ -61,11 +61,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -256,11 +261,16 @@
                 "bad-practice"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -334,11 +344,16 @@
                 "bad-practice"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -364,11 +379,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -394,11 +414,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -424,11 +449,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -541,11 +571,16 @@
                 "bad-practice"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -571,11 +606,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -601,11 +641,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -631,11 +676,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -661,11 +711,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -691,11 +746,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -721,11 +781,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -751,11 +816,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -781,11 +851,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -811,11 +886,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -841,11 +921,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -871,11 +956,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -901,11 +991,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -931,11 +1026,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -961,11 +1061,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -991,11 +1096,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1021,11 +1131,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1051,11 +1166,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1081,11 +1201,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1111,11 +1236,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1141,11 +1271,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1171,11 +1306,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1201,11 +1341,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1231,11 +1376,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1261,11 +1411,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1291,11 +1446,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1321,11 +1481,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1351,11 +1516,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1381,11 +1551,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1411,11 +1586,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1441,11 +1621,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1471,11 +1656,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1501,11 +1691,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1531,11 +1726,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1561,11 +1761,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1591,11 +1796,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1621,11 +1831,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1651,11 +1866,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1681,11 +1901,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1711,11 +1936,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1741,11 +1971,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1771,11 +2006,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1801,11 +2041,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1831,11 +2076,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1861,11 +2111,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1891,11 +2146,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1921,11 +2181,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1951,11 +2216,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -1981,11 +2251,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2011,11 +2286,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2041,11 +2321,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2071,11 +2356,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2101,11 +2391,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2131,11 +2426,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2161,11 +2461,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2191,11 +2496,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2221,11 +2531,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2251,11 +2566,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2281,11 +2601,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2311,11 +2636,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2341,11 +2671,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2371,11 +2706,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2401,11 +2741,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2431,11 +2776,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2461,11 +2811,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2491,11 +2846,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2521,11 +2881,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2551,11 +2916,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2581,11 +2951,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2611,11 +2986,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2641,11 +3021,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2671,11 +3056,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2701,11 +3091,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2731,11 +3126,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2761,11 +3161,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2791,11 +3196,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2821,11 +3231,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2851,11 +3266,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2881,11 +3301,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2911,11 +3336,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2941,11 +3371,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -2971,11 +3406,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -3001,11 +3441,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -3031,11 +3476,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -3061,11 +3511,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -3091,11 +3546,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -3121,11 +3581,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -3151,11 +3616,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -3181,11 +3651,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -3211,11 +3686,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -3241,11 +3721,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -3271,11 +3756,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],
@@ -3301,11 +3791,16 @@
                 "pitfall"
             ],
             "transitions": [
-                "confirm"
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
             ],
             "actions": [
+                "set_type",
                 "set_tags",
                 "comment",
+                "set_severity",
                 "assign"
             ],
             "comments": [],

@@ -1,0 +1,1308 @@
+{
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 100,
+        "total": 1135
+    },
+    "baseComponent": {
+        "key": "project",
+        "name": "project",
+        "qualifier": "TRK",
+        "measures": [
+            {
+                "metric": "complexity",
+                "value": "21110"
+            }
+        ]
+    },
+    "components": [
+        {
+            "key": "project:src/main/java/org/jfree/chart/annotations/AbstractAnnotation.java",
+            "name": "AbstractAnnotation.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/annotations/AbstractAnnotation.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "15"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/block/AbstractBlock.java",
+            "name": "AbstractBlock.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/block/AbstractBlock.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "55"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/block/AbstractBlockTest.java",
+            "name": "AbstractBlockTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/block/AbstractBlockTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/labels/AbstractCategoryItemLabelGenerator.java",
+            "name": "AbstractCategoryItemLabelGenerator.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/labels/AbstractCategoryItemLabelGenerator.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "24"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java",
+            "name": "AbstractCategoryItemRenderer.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "165"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java",
+            "name": "AbstractCategoryItemRendererTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "11"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/general/AbstractDataset.java",
+            "name": "AbstractDataset.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/data/general/AbstractDataset.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "16"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/plot/dial/AbstractDialLayer.java",
+            "name": "AbstractDialLayer.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/plot/dial/AbstractDialLayer.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "15"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/dial/AbstractDialLayerTest.java",
+            "name": "AbstractDialLayerTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/plot/dial/AbstractDialLayerTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/xy/AbstractIntervalXYDataset.java",
+            "name": "AbstractIntervalXYDataset.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/data/xy/AbstractIntervalXYDataset.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "8"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/swing/AbstractOverlay.java",
+            "name": "AbstractOverlay.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/swing/AbstractOverlay.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/labels/AbstractPieItemLabelGenerator.java",
+            "name": "AbstractPieItemLabelGenerator.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/labels/AbstractPieItemLabelGenerator.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "20"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/plot/pie/AbstractPieLabelDistributor.java",
+            "name": "AbstractPieLabelDistributor.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/plot/pie/AbstractPieLabelDistributor.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/renderer/AbstractRenderer.java",
+            "name": "AbstractRenderer.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/renderer/AbstractRenderer.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "315"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/AbstractRendererTest.java",
+            "name": "AbstractRendererTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/renderer/AbstractRendererTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "17"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/general/AbstractSeriesDataset.java",
+            "name": "AbstractSeriesDataset.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/data/general/AbstractSeriesDataset.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/annotations/AbstractXYAnnotation.java",
+            "name": "AbstractXYAnnotation.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/annotations/AbstractXYAnnotation.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "16"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/xy/AbstractXYDataset.java",
+            "name": "AbstractXYDataset.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/data/xy/AbstractXYDataset.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/labels/AbstractXYItemLabelGenerator.java",
+            "name": "AbstractXYItemLabelGenerator.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/labels/AbstractXYItemLabelGenerator.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "32"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java",
+            "name": "AbstractXYItemRenderer.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "167"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/AbstractXYItemRendererTest.java",
+            "name": "AbstractXYItemRendererTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/AbstractXYItemRendererTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "8"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/xy/AbstractXYZDataset.java",
+            "name": "AbstractXYZDataset.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/data/xy/AbstractXYZDataset.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/annotations/Annotation.java",
+            "name": "Annotation.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/annotations/Annotation.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/event/AnnotationChangeEvent.java",
+            "name": "AnnotationChangeEvent.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/event/AnnotationChangeEvent.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/event/AnnotationChangeListener.java",
+            "name": "AnnotationChangeListener.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/event/AnnotationChangeListener.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/annotations",
+            "name": "annotations",
+            "qualifier": "DIR",
+            "path": "src/main/java/org/jfree/chart/annotations",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "449"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/annotations",
+            "name": "annotations",
+            "qualifier": "DIR",
+            "path": "src/test/java/org/jfree/chart/annotations",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "88"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/api",
+            "name": "api",
+            "qualifier": "DIR",
+            "path": "src/main/java/org/jfree/chart/api",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "106"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/api",
+            "name": "api",
+            "qualifier": "DIR",
+            "path": "src/test/java/org/jfree/chart/api",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/swing/ApplicationFrame.java",
+            "name": "ApplicationFrame.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/swing/ApplicationFrame.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "9"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/plot/dial/ArcDialFrame.java",
+            "name": "ArcDialFrame.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/plot/dial/ArcDialFrame.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "36"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/dial/ArcDialFrameTest.java",
+            "name": "ArcDialFrameTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/plot/dial/ArcDialFrameTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "4"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/AreaChartTest.java",
+            "name": "AreaChartTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/AreaChartTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/renderer/category/AreaRenderer.java",
+            "name": "AreaRenderer.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/renderer/category/AreaRenderer.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "31"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/renderer/AreaRendererEndType.java",
+            "name": "AreaRendererEndType.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/renderer/AreaRendererEndType.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/AreaRendererEndTypeTest.java",
+            "name": "AreaRendererEndTypeTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/renderer/AreaRendererEndTypeTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/category/AreaRendererTest.java",
+            "name": "AreaRendererTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/renderer/category/AreaRendererTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "6"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/internal/Args.java",
+            "name": "Args.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/internal/Args.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "11"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/internal/ArgsTest.java",
+            "name": "ArgsTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/internal/ArgsTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/block/Arrangement.java",
+            "name": "Arrangement.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/block/Arrangement.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/internal/ArrayUtils.java",
+            "name": "ArrayUtils.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/internal/ArrayUtils.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "33"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/plot/compass/ArrowNeedle.java",
+            "name": "ArrowNeedle.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/plot/compass/ArrowNeedle.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "14"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/plot/compass/ArrowNeedleTest.java",
+            "name": "ArrowNeedleTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/plot/compass/ArrowNeedleTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/text/AttributedStringUtils.java",
+            "name": "AttributedStringUtils.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/text/AttributedStringUtils.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "9"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/util/AttrStringUtils.java",
+            "name": "AttrStringUtils.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/util/AttrStringUtils.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "54"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/axis",
+            "name": "axis",
+            "qualifier": "DIR",
+            "path": "src/main/java/org/jfree/chart/axis",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "1811"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/axis",
+            "name": "axis",
+            "qualifier": "DIR",
+            "path": "src/test/java/org/jfree/chart/axis",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "163"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/axis/Axis.java",
+            "name": "Axis.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/axis/Axis.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "156"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/event/AxisChangeEvent.java",
+            "name": "AxisChangeEvent.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/event/AxisChangeEvent.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/event/AxisChangeListener.java",
+            "name": "AxisChangeListener.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/event/AxisChangeListener.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/axis/AxisCollection.java",
+            "name": "AxisCollection.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/axis/AxisCollection.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "10"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/entity/AxisEntity.java",
+            "name": "AxisEntity.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/entity/AxisEntity.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "16"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/axis/AxisLabelLocation.java",
+            "name": "AxisLabelLocation.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/axis/AxisLabelLocation.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/axis/AxisLocation.java",
+            "name": "AxisLocation.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/axis/AxisLocation.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "6"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/axis/AxisLocationTest.java",
+            "name": "AxisLocationTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/axis/AxisLocationTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/axis/AxisSpace.java",
+            "name": "AxisSpace.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/axis/AxisSpace.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "43"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/axis/AxisSpaceTest.java",
+            "name": "AxisSpaceTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/axis/AxisSpaceTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/axis/AxisState.java",
+            "name": "AxisState.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/axis/AxisState.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "17"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/axis/AxisTest.java",
+            "name": "AxisTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/axis/AxisTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "4"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/BarChartTest.java",
+            "name": "BarChartTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/BarChartTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/renderer/category/BarPainter.java",
+            "name": "BarPainter.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/renderer/category/BarPainter.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/renderer/category/BarRenderer.java",
+            "name": "BarRenderer.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/renderer/category/BarRenderer.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "155"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/category/BarRendererTest.java",
+            "name": "BarRendererTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/renderer/category/BarRendererTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "9"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/block",
+            "name": "block",
+            "qualifier": "DIR",
+            "path": "src/main/java/org/jfree/chart/block",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "471"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/block",
+            "name": "block",
+            "qualifier": "DIR",
+            "path": "src/test/java/org/jfree/chart/block",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "53"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/block/Block.java",
+            "name": "Block.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/block/Block.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/block/BlockBorder.java",
+            "name": "BlockBorder.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/block/BlockBorder.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "19"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/block/BlockBorderTest.java",
+            "name": "BlockBorderTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/block/BlockBorderTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/block/BlockContainer.java",
+            "name": "BlockContainer.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/block/BlockContainer.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "26"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/block/BlockContainerTest.java",
+            "name": "BlockContainerTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/block/BlockContainerTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/block/BlockFrame.java",
+            "name": "BlockFrame.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/block/BlockFrame.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/block/BlockParams.java",
+            "name": "BlockParams.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/block/BlockParams.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/block/BlockResult.java",
+            "name": "BlockResult.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/block/BlockResult.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/block/BorderArrangement.java",
+            "name": "BorderArrangement.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/block/BorderArrangement.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "71"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/block/BorderArrangementTest.java",
+            "name": "BorderArrangementTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/block/BorderArrangementTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "6"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/statistics/BoxAndWhiskerCalculator.java",
+            "name": "BoxAndWhiskerCalculator.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/data/statistics/BoxAndWhiskerCalculator.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "21"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/data/statistics/BoxAndWhiskerCalculatorTest.java",
+            "name": "BoxAndWhiskerCalculatorTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/data/statistics/BoxAndWhiskerCalculatorTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "4"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/statistics/BoxAndWhiskerCategoryDataset.java",
+            "name": "BoxAndWhiskerCategoryDataset.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/data/statistics/BoxAndWhiskerCategoryDataset.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/statistics/BoxAndWhiskerItem.java",
+            "name": "BoxAndWhiskerItem.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/data/statistics/BoxAndWhiskerItem.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "26"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/data/statistics/BoxAndWhiskerItemTest.java",
+            "name": "BoxAndWhiskerItemTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/data/statistics/BoxAndWhiskerItemTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/renderer/category/BoxAndWhiskerRenderer.java",
+            "name": "BoxAndWhiskerRenderer.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/renderer/category/BoxAndWhiskerRenderer.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "115"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/category/BoxAndWhiskerRendererTest.java",
+            "name": "BoxAndWhiskerRendererTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/renderer/category/BoxAndWhiskerRendererTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "22"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/labels/BoxAndWhiskerToolTipGenerator.java",
+            "name": "BoxAndWhiskerToolTipGenerator.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/labels/BoxAndWhiskerToolTipGenerator.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/labels/BoxAndWhiskerToolTipGeneratorTest.java",
+            "name": "BoxAndWhiskerToolTipGeneratorTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/labels/BoxAndWhiskerToolTipGeneratorTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/statistics/BoxAndWhiskerXYDataset.java",
+            "name": "BoxAndWhiskerXYDataset.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/data/statistics/BoxAndWhiskerXYDataset.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGenerator.java",
+            "name": "BoxAndWhiskerXYToolTipGenerator.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGenerator.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "8"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGeneratorTest.java",
+            "name": "BoxAndWhiskerXYToolTipGeneratorTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/labels/BoxAndWhiskerXYToolTipGeneratorTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/labels/BubbleXYItemLabelGenerator.java",
+            "name": "BubbleXYItemLabelGenerator.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/labels/BubbleXYItemLabelGenerator.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "19"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/labels/BubbleXYItemLabelGeneratorTest.java",
+            "name": "BubbleXYItemLabelGeneratorTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/labels/BubbleXYItemLabelGeneratorTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "6"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/renderer/xy/CandlestickRenderer.java",
+            "name": "CandlestickRenderer.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/renderer/xy/CandlestickRenderer.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "77"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/xy/CandlestickRendererTest.java",
+            "name": "CandlestickRendererTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/renderer/xy/CandlestickRendererTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/data/category",
+            "name": "category",
+            "qualifier": "DIR",
+            "path": "src/main/java/org/jfree/data/category",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "205"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/renderer/category",
+            "name": "category",
+            "qualifier": "DIR",
+            "path": "src/main/java/org/jfree/chart/renderer/category",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "1216"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/renderer/category",
+            "name": "category",
+            "qualifier": "DIR",
+            "path": "src/test/java/org/jfree/chart/renderer/category",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "174"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/data/category",
+            "name": "category",
+            "qualifier": "DIR",
+            "path": "src/test/java/org/jfree/data/category",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "49"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/axis/CategoryAnchor.java",
+            "name": "CategoryAnchor.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/axis/CategoryAnchor.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/axis/CategoryAnchorTest.java",
+            "name": "CategoryAnchorTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/axis/CategoryAnchorTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/annotations/CategoryAnnotation.java",
+            "name": "CategoryAnnotation.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/annotations/CategoryAnnotation.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "key": "project:src/main/java/org/jfree/chart/axis/CategoryAxis.java",
+            "name": "CategoryAxis.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/org/jfree/chart/axis/CategoryAxis.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "143"
+                }
+            ]
+        },
+        {
+            "key": "project:src/test/java/org/jfree/chart/axis/CategoryAxisTest.java",
+            "name": "CategoryAxisTest.java",
+            "qualifier": "FIL",
+            "path": "src/test/java/org/jfree/chart/axis/CategoryAxisTest.java",
+            "language": "java",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                }
+            ]
+        }
+    ]
+}

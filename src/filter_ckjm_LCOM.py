@@ -2,7 +2,6 @@ import csv
 
 stats = 0;
 zeroes = 0;
-nonz =0;
 list = []
 with open('../Data/class.csv', 'r') as inputs:
     r = csv.reader(inputs, delimiter=',')
@@ -14,12 +13,9 @@ with open('../Data/class.csv', 'r') as inputs:
             stats += float(row[12])
             if float(row[12]) == 0:
                  zeroes = zeroes + 1
-            else :
-                nonz += 1
         list.append(l)
 
 print(stats / len(list))
-print(stats/ nonz)
 print(zeroes)
 print(len(list))
 
