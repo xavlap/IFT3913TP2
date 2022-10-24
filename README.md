@@ -2,10 +2,12 @@
 Louis-André Brassard : 20182271
 Xavier Lapalme : 20187052
 
+# Toutes les données récoltées se trouvent dans le fichier Data alors que tous les scripts utilisés se retrouvent dans src
+
 # Lien vers le repo Git 
 https://github.com/xavlap/IFT3913TP2
 
-# Commande utilisée pour lancé ckjm sur le repo de jFreeChart, ensuite quelques petits script python3 ont été utilisé 
+# Commande utilisée pour lancer ckjm sur le repo de jFreeChart, ensuite quelques petits scripts python3 ont été utilisé 
 # pour parse les données générées soit filter_ckjm_LCOM et filter_ckjm_RFC 
 ```bash
 java -jar ck-0.7.1-SNAPSHOT-jar-with-dependencies.jar /home/xavlap/Documents/A22/IFT3913/IFT3913TP2/src/jfreechart-master/src/main/java false 0 false /home/xavlap/Documents/A22/IFT3913/IFT3913TP2/ckmj.csv

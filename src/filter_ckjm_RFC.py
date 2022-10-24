@@ -15,6 +15,7 @@ with open('../Data/class.csv', 'r') as inputs:
 
         total_classes += 1
 
+print(total/total_classes)
 
 with open('../Data/ckjm_RFC.csv', 'w') as outputs:
     w = csv.writer(outputs)
